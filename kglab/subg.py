@@ -521,7 +521,6 @@ optional style dictionary
 a `PyVis` network object
         """
         pyvis_graph = pyvis.network.Network(notebook=notebook, select_menu=select_menu, cdn_resources=cdn_resources, filter_menu=filter_menu)
-        pyvis_graph.show_buttons(filter_=["physics"])
 
         if not style:
             style = {}
